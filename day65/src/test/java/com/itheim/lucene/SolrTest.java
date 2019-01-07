@@ -19,7 +19,7 @@ public class SolrTest {
         product.setName("iphone8");
         product.setCatalogName("手机");
         product.setPrice(8000);
-        product.setDescription("苹果手机还不错哦!!!!");
+        product.setDescription("苹果手机还不错哦！");
         product.setPicture("1.jpg");
         solrServer.addBean(product);
         // 提交事务
